@@ -2,3 +2,5 @@
 
 
 Edited in module, SHA-1 should persist in parent
+
+Edited in module, SHA-1 should persist in parent
