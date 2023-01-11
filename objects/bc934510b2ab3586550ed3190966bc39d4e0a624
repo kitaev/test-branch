@@ -1,0 +1,12 @@
+[module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
+	conflict = request-pull
+	path = module
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/monorepo sync refs/heads/main
+	url = agnostic://ght/550844705
+[map "d9120dfc-b81b-3599-bada-555dc7910b61"]
+	object = 88de9c280b18e9ede80e8b4c444c6b762483fbeb
+	path = module
+	stage = sync
+	type = extract module
